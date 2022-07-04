@@ -1,0 +1,174 @@
+20220620 e 20220621 Aula C# casa
+
+
+https://petcomputacaoufrgs.github.io/intro-ao-git/git-log.html
+
+====================================
+
+Quando voce cria repositório  o GitHub  ele mostra os comandos abaixo
+
+echo "# revisaofrontend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/YedoCosta/revisaofrontend.git
+git push -u origin main
+
+====================================
+
+git init --bare
+	Com o comando git init --bare você está criando um repositório que é pushable. 
+	Geralmente os repositórios bare são criados no servidor e são considerados repositórios para armazenamento, 
+	em contraste aos repositórios que vão nas máquinas dos desenvolvedores que seriam os repositórios de 
+	desenvolvimento, criados com o comando git init (sem o --bare).
+
+================================
+
+git --version = mostra a versão do Git
+	git version 2.36.1.windows.1
+
+===============  para criar um diretorio novo para um novo HTML ========================
+
+mkdir - cria diretório - entratr no diretório 
+
+git init
+	git init é um comando único que você usa durante a configuração inicial de um novo repositório. 
+	A execução desse comando cria um novo subdiretório . git no diretório de trabalho atual. 
+	Essa ação também vai criar uma ramificação principal.
+
+git config --local user.name "seu nome"
+
+git config --local user.email "seu"email"
+
+git status
+	mostra o estado atual do seu diretório de trabalho Git e da área de teste 
+
+nano <index.html> ==> ctrl + X e 'Y' ==> para salvar = inserir uma linha , pode ser em branco
+	entrar no VS Code com o nome do projeto criado, selecionar index.html e ma primeira linha digiat '!' e <enter>
+
+git status
+
+git add <nome arquivo>
+	pega um arquivo modificado em seu diretório de trabalho e coloca a versão modificada em uma área de teste. 
+
+git status
+
+git commit -m <descição da modificação do projeto>
+	pega tudo da área de teste e faz um instantâneo permanente do estado atual do seu repositório 
+	que está associado a um identificador exclusivo.
+
+git status
+
+$ git push -u origin master
+
+
+========================  para clonar um repositório existente ==================================
+
+- na pasta em que voce quer criar um clone siga a instrução abaixo
+
+git clone  https://github.com/YedoCosta/entrevistagithub.git (este endereço está no GitHub.com - icone <code>)
+
+==================================================================================================
+
+.gitignore
+	gitignore é um arquivo de texto que informa ao Git quais arquivos ou pastas devem ser ignorados em um projeto . 
+	Um local . gitignore geralmente é colocado no diretório raiz de um projeto. 
+	Você também pode criar um arquivo . gitignore e quaisquer entradas nesse arquivo 
+	serão ignoradas em todos os seus repositórios Git.
+
+git add .gitignore
+	gitignore não é adicionado a um repositório por padrão. 
+	Use o vi ou seu editor de texto favorito para criar o arquivo . gitignore e 
+	emita um git add . gitignore seguido por git commit -m "message"
+
+============================================
+
+git log --oneline
+	Por padrão, a instrução git log retorna uma entrada de log completa para cada confirmação feita em um repositório.
+	Você pode recuperar uma lista de IDs de confirmação e suas mensagens de confirmação associadas usando 
+	o sinalizador –oneline . Podemos ver os IDs de commit e a primeira linha das mensagens associadas a um commit.
+
+git log ==> para sair 'q'
+	Um log do Git é um registro em execução de commits . 
+	Um log completo tem as seguintes partes: Um hash de commit (SHA1 40 caracteres checksum do conteúdo dos commits). 
+	Por ser gerado com base no conteúdo do commit, ele é único. 
+	Metadados do autor do commit: o nome e o endereço de e-mail do autor do commit.
+
+git log -p ==> para sair 'q'
+
+git log --pretty ==> para sair 'q'
+git log --pretty="format:%h %s %ae"
+
+=========================== Criar um novo repositorio no GitHub.com
+
+Criar com o mesmo nome, de preferencia, do diretorio do git
+
+
+git remote
+	Um repositório remoto no Git, também chamado de remoto, é um repositório Git hospedado na Internet 
+	ou em outra rede . 
+
+git remote add <nome> (https://github.com/YedoCosta/entrevistagithub.git (este endereço está no GitHub.com - icone <code>))
+	Para adicionar um novo controle remoto, use o comando git remote add no terminal, 
+	no diretório em que seu repositório está armazenado . 
+	O comando git remote add recebe dois argumentos: Um nome remoto exclusivo, 
+	por exemplo, “my_awesome_new_remote_repo” Um URL remoto, que você pode encontrar na subguia Source 
+	do seu repositório Git.
+
+git push -u origin master
+	O comando git push é usado para enviar o conteúdo do repositório local para um repositório remoto. 
+	O comando push transfere commits do repositório local a um repositório remoto.
+
+===========================  para voltar a uma versão desejada =================
+
+git revert <hash>
+	é usado para gravar alguns novos commits para reverter o efeito de alguns commits anteriores 
+	(geralmente apenas um com defeito). Se você quiser jogar fora todas as alterações não confirmadas 
+	em seu diretório de trabalho, você deve ver git-reset[1], particularmente a opção --hard
+
+===================== Criação de ramos (branch) ====================
+
+git branch
+	mostra qual a branch que eu tenho
+
+git branch header
+	cria uma branch neste caso a 'header' (a branch 'master' é a principal)
+
+git checkout header
+	muda de branch
+
+============================================
+
+git branch rodape
+
+git checkout rodape
+
+nano index.html => faz alteração no arquivo
+
+git add index.html
+
+git commit -m "Criando menu"
+
+nano index.html
+
+git add index.html
+
+git commit -m "Finalizei o rodape"
+
+git log --oneline
+
+ git checkout master
+
+git log --oneline
+
+git merge rodape
+
+git log --oneline
+
+===========================================
+
+
+
+
+

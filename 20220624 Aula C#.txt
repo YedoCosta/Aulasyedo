@@ -1,0 +1,70 @@
+
+20220624
+
+baixar o visual studio comunity 2022
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+
+</video>
+
+=====================================
+
+https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
+https://www.youtube.com/watch?v=mRlkt7P2gZI - BOOTSTRAP 4
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -
+
+
+======================================================= aula 
+
+https://jqueryui.com/draggable/
+
+view source
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+</head>
+<body>
+ 
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me around</p>
+</div>
+ 
+ 
+</body>
+</html>
+
+copiar isto e colocar no index.html
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+
+id="draggable" class="ui-widget-content">
+
+====================================

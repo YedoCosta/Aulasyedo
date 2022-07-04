@@ -1,0 +1,15 @@
+20220704 - aula
+
+O que é uma solução? É conjunto de projetos
+
+
+- continue without code 
+- file
+  - new 
+    - projet
+
+Criar 1º projeto
+	botao direito em cida da solução
+	add
+	novo projeto
+

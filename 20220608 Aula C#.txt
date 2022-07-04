@@ -1,0 +1,215 @@
+
+Aula 08/06/2022
+
+https://www.hostgator.com.br/blog/git-o-sistema-de-controle/?gclid=CjwKCAjwkYGVBhArEiwA4sZLuLvPPJIsIqWJL4piPKiqe4Kw75Tu4WBJd7nrco6NMOtUqhmeRMQXABoCD8IQAvD_BwE
+
+Git - controle de versão (software)
+
+O Git é um Sistema de Controle de Versão Distribuído que evita que alterações realizadas em um 
+projeto modifiquem o código-fonte. Neste conteúdo você vai entender como funciona!
+
+=====================================
+
+https://www.google.com/search?q=o+que+%C3%A9+o+github&rlz=1C1GCEA_enBR997BR997&oq=o+que+%C3%A9+o+github&aqs=chrome..69i57j0i512l3j0i22i30l6.7665j1j15&sourceid=chrome&ie=UTF-8
+
+É da Microsoft
+
+GitHub - é a nuvem
+
+O que é GitHub e qual sua finalidade?
+
+O GitHub é usado principalmente para armazenar repositórios, que são as "localizações" dos arquivos 
+de um determinado projeto. Os usuários podem criar projetos com base em outros já existentes e editá-los
+ à sua maneira — é assim, por exemplo, que múltiplos desenvolvedores se ajudam em um mesmo projeto.30 de mai. 
+de 2021
+O slogan do GitHub é "Social Code Host" (hospedeiro social de códigos, em tradução livre). A base do site 
+é justamente essa: armazenar códigos de programação, produzidos por desenvolvedores do mundo todo, 
+e compartilhá-los como se fosse uma rede social. Dessa forma, é possível que quaisquer usuários cadastrados 
+na plataforma divulguem seus trabalhos e que outros membros da comunidade façam contribuições.
+
+===========================================
+
+svn versionamento
+
+https://www.google.com/search?q=svn+versionamento&rlz=1C1GCEA_enBR997BR997&oq=svn+versionamento&aqs=chrome..69i57j0i10i15i22i30.3934j0j7&sourceid=chrome&ie=UTF-8
+
+O que é versionamento SVN?
+O SVN é um sistema de versionamento flexível, que mantém o histórico mesmo após a ocorrência de eventos 
+como mover, copiar ou renomear. Essas três características não estão presentes em muitos sistemas de controle 
+de versão, mais notavelmente no CVS.
+
+=============================================
+
+Criar conta no GitHub para o Curso
+
+yedo@df...
+
+https://github.com/
+
+Sign in
+
+Username or email address
+
+Password
+
+===========================================
+
+Novos termos:
+
+Commit
+
+Em ciência da computação e gerenciamento de dados, um commit é a realização de um conjunto de 
+mudanças provisórias permanentes, marcando o fim de uma transação e proporcionando durabilidade às 
+transações ACID.
+O comando git commit captura um instantâneo das mudanças preparadas do projeto no momento. 
+Os instantâneos com commit podem ser considerados versões "seguras" de um projeto, 
+o Git nunca os altera, a menos que você peça a ele.
+
+Clone
+Push
+Pull
+Merge
+
+
+=============================================
+
+Repositório = guarda alguma coisa 
+
+Onde - GitHub
+O que - Codigos, texto, arquivos, 
+
+===========================================
+
+Criar Repositório
+
+Clicar em (new)
+
+YedoCosta/projetofinal
+
+https://github.com/YedoCosta/projetofinal.git
+
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+criar em ( new file ) - 
+
+commit new file
+
+use o lápis do lado direito para inserir linhas
+
+<h1> Projeto Escola </h1>
+<h2> Sistemas MultiStack</h2>
+<h3> Professor Romulo Cesar </h3>
+<h4> Tecnologias Imersivas </h4>
+<h5> Frontend </h5>
+<h6> BackEnd </h6>
+
+**testando negrito**<br>
+*testando italico*
+
+1.HTML - Linguagem de Marcação de Textos (**estruturas**)<br>
+2.CSS - Linguagem de **estilização** (cores, fontes, background...)<br>
+3. JavaScript - Linguagem de Programação Script (**funciona,idade**)<br>
+4. GIT-GitHub - **Versionamento** de Código (clone, pull, push, commit,merge)<br>
+5. *Logica de Programação* Aplicada ao JavaScript<br>
+6. *Orientação a Objetos* Aplicad ao JavaScript/TypeScript<br>
+7. Frameworks JavaScript: Angular, React e Vue.js<br>
+8. Linguagem C#: Básico, Intermediário e Avançado<br>
+9. Linguagem C# e Banco de Dados (Add.NET e Entity Framework)<br>
+10. Programação RAD (Windows Form) com EntityFramework - Data Base First<br>
+11. .ASP.NET MVC - Entity Framework - Code First<br>
+12. .ASP.NET Web API - Integração de Sistemas<br>
+13. Integrado Desktop, WEB e Mobile<br>
+14. Instalador Inno Setup (instalação de softwate comercial)<br>
+15. Configuraçãi e Hospedagem na Nuvem<br>
+16. Teste de Software (Unitário)<br>
+17. Documentos UML do projeto Final
+
+para ver resultado (Preview)
+
+Add file (adicionar um file) ( dentro do projetofinal )
+
+criar o file index.html
+
+após criar fazer o passo abaixo
+
+<shift> ! no Visual Studio Code (VS Code) Aparece o codigo abaixo
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+==================================================
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final - Escola</title>
+</head>
+<body>
+    <h1>Projeto Escola</h1><h1>
+    <strong>Objetivos:</strong>
+    <em>Aplicar conhecimentos do curso de <strong>Desenvolvedor C#</strong></em>
+    <p>
+        A Universidade Católica de Brasília tem como missão atuar solidária e 
+        efetivamente para o desenvolvimento integral da pessoa humana e da sociedade, 
+        por meio da geração e da comunhão do saber, comprometida com a qualidade 
+        e os valores éticos e cristãos, na busca da verdade.
+    </p>
+    <p>
+        Nesta empreitada pretendo adquirir conhecimentos em c# para desenvolver um projeto de controle 
+        de inscrição e seleção de alunos a serem matriculados no curso de Tecnolodia de Informação.
+
+    </p>
+</body>
+</html>
+
+======================================================
+
+Digitar um "." (ponto) dentro do YEDOCOSTA/projetofinal
+
+Abre o VS Code da nuvem
+Quando eu alterar o codigo - verificar se apareceu o numeor 1 na margem esquerda
+clicar no um e fazer o commit and push no sinal de verificação
+
+======================================================
+baixar o git
+
+git
+download for windows
+64-bit Git for Windows Setup.
+
+executar o ( git bash )
+
+    8  cd 'Meus Documentos'
+    9  git clone https://github.com/YedoCosta/projetofinal.git
+
+========================================================
+
+
+https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+
+Markdowm - ver guia básico - lista de comandos
+
+
+
+
+
+
+
+
+
+
+
+

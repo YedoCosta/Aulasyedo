@@ -1,0 +1,112 @@
+20220620
+
+
+insert 
+esc
+:
+q!i
+
+=============================
+
+git branch rodape
+git chekout rodape (muda de master para branch rodape)
+git commit -m "melhorando o rodape"
+
+====================================
+Link ferramenta
+https://git-school.github.io/visualizing-git/
+
+
+ 57  ls
+   58  ls -a
+   59  cd cursogithub
+   60  nono README.md
+   61  nano README.md
+   62  ls -a
+   63  git init
+   64  ls
+   65  git status
+   66  nano index.html
+   67  ls _a
+   68  ls -a
+   69  git status
+   70  git config --global user.name "YedoCosta"
+   71  git config --global user.mail "yedo@df.estudante.senai.br"
+   72  ls -a
+   73  ls
+   74  git status
+   75  git add index.html
+   76  git status
+   77  gir add README.md
+   78  git add README.md
+   79  git status
+   80  git commit -m "adicionei uma tag h1 ao arquivo index.html usando nano"
+   81  ls status
+   82  nano listaexercicio.pdf
+   83  ls
+   84  git status
+   85  git add listaexercicio.pdf
+   86  git status
+   87  git commit -m "inclui listaexercćio"
+   88  git status
+   89  git rm --cached listaexercicio.pdf
+   90  git status
+   91  git commit -m "exclui listaexercicio"
+   92  git status
+   93  ls
+   94  rm listaexercicio.pdf
+   95  ls
+   96  nano  index.html
+   97  ls
+   98  git status
+   99  git add index.html
+  100  git status
+  101  git commi -m "aleterando dois arquivos"
+  102  git commit -m "aleterando dois arquivos"
+  103  ls -a
+  104  cd ..
+  105  la
+  106  cd cursogithub
+  107  ls
+  108  history
+  109  exit
+  110  ls
+  111  history
+  112  cd 'Meus Documentos'
+  113  cd cursogithub
+  114  ls -a
+  115  ls
+  116  git status
+  117  git log
+  118  git revert  f27559a81051f0ea00d5a9e4afbf6a5a09ef1201
+  119  git status
+  120  nano index2.html
+  121  ls
+  122  git status
+  123  git add index2.html
+  124  git status
+  125  git commit -m "insere index2.html"
+  126  git status
+  127  ls
+  128  git log
+  129  ls
+  130  git log
+  131  ls
+  132  clear
+  133  ls
+  134  git log
+  135  git reverse 7f5edba4dbe3873118d4ab2a06fc1c23c55a75f0
+  136  ls
+  137  reverse 7f5edba4dbe3873118d4ab2a06fc1c23c55a75f0
+  138  git revest 7f5edba4dbe3873118d4ab2a06fc1c23c55a75f0
+  139  git revert
+  140  ls
+  141  git revert
+  142  git revert 7f5edba4dbe3873118d4ab2a06fc1c23c55a75f0
+  143  history
+  144  cd 'Meus Documentos'
+  145  cd cursogithub
+  146  ls
+  147  quit
+  148  exit
+ 

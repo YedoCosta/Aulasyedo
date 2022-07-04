@@ -1,0 +1,138 @@
+aula 09/06/2022
+
+====================================
+
+Adicionar colaborador no GitHub
+
+projetofinal/README.md ==> clicar em projetofinal
+
+
+Security
+Insights
+Settings - clicar neste
+
+clicar em Collaborators
+
+clicar em Add peoples
+
+=====================================
+
+Abrir git bash
+
+    8  cd 'Meus Documentos'
+    9  git clone https://github.com/YedoCosta/projetofinal.git
+
+https://github.com/YedoCosta/projetofinal.git 
+buscar isto no YedoCosta/projetofinal - CODE - https://github.com/YedoCosta/projetofinal.git
+
+push - tenho que fazer no projeto finalls
+
+
+Aluno@Lab206_4 MINGW64 ~/Meus Documentos
+$ git pull https://github.com/YedoCosta/projetofinal.git
+fatal: not a git repository (or any of the parent directories): .git
+
+=======> TENHO QUE COLOCAR O DIRETORIO QUE ESTA O PROJETO PARA RODAR O "PULL"
+C:\Users\Aluno\Documents\projetofinal
+
+
+Aluno@Lab206_4 MINGW64 ~/Meus Documentos
+$ cd projetofinal
+
+Aluno@Lab206_4 MINGW64 ~/Meus Documentos/projetofinal (main)
+$ ls
+README.md  index.html
+
+Aluno@Lab206_4 MINGW64 ~/Meus Documentos/projetofinal (main)
+$ git pull https://github.com/YedoCosta/projetofinal.git
+
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 12 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), 3.15 KiB | 129.00 KiB/s, done.
+
+From https://github.com/YedoCosta/projetofinal
+ * branch            HEAD       -> FETCH_HEAD
+Updating b43f81a..e51d1b1
+Fast-forward
+ README.md  | 83 +++++++++++++++++++++++++++++++++++++++++++++++++-------------
+ index.html |  2 +-
+ 2 files changed, 67 insertions(+), 18 deletions(-)
+
+Aluno@Lab206_4 MINGW64 ~/Meus Documentos/projetofinal (main)
+$
+
+============================================================
+
+Para abrir o README.md no Visual Studio Code
+
+VS code
+
+file
+  open folder
+    documentos
+       projetofinal (nome do projeto) 
+         (selecionar pasta)
+
+<ul> - para criar lista
+
+   <li> - inserir a lista
+
+   </li>
+</ul>
+=========================================
+
+quando der erro de autenticação no VS code
+
+$ git config --global user.email "seu email"
+$ git config --global user.name "seu nome do git"
+
+====================================================
+
+onde tem  PROJETOFINAL  na frente tem uma caixinha onde aparece new file
+
+criar new file - geral.css
+
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final - Escola</title>
+    <link rel="stylesheet" type="text/css" href="geral.css"/>
+</head>
+<body>
+    <h1>Projeto Escola</h1><h1>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="equipe.html">A EQUIPE</a></li>
+        <li><a href="projeto.html">O PROJETO</a></li>
+        <li><a href="midia.html">NA MÍDIA</a></li>
+        <li><a href="faleconosco.html">FALE CONOSCO</a></li>
+    </ul>
+    <strong>Objetivos:</strong>
+    <em>Aplicar conhecimentos do curso de <strong>Desenvolvedor C#</strong></em>
+    <p>
+        A Universidade Católica de Brasília tem como missão atuar solidária e 
+        efetivamente para o desenvolvimento integral da pessoa humana e da sociedade, 
+        por meio da geração e da comunhão do saber, comprometida com a qualidade 
+        e os valores éticos e cristãos, na busca da verdade.
+    </p>
+    <p>
+        Nesta empreitada pretendo adquirir conhecimentos em c# para desenvolver um projeto de controle 
+        de inscrição e seleção de alunos a serem matriculados no curso de Tecnolodia de Informação.
+
+    </p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

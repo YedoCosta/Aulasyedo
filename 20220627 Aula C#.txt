@@ -1,0 +1,102 @@
+20220627
+
+=======================================
+
+Feito pelo Eduardo
+
+http://dontpad.com/ECV-CSharp
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program 
+    {
+        static void Main(string[] args)
+        {
+           
+            Person person = new Person();
+            Person person0 = new Person();
+            Person person1 = new Person();
+            person.Name = Console.ReadLine();
+            person0.Name = Console.ReadLine();
+            person1.Name = Console.ReadLine();
+
+            Console.WriteLine("\n"+person.Name+"\n"+person0.Name+"\n"+person1.Name+"\n"+person1.Count);
+
+        }
+    }
+    internal class Person 
+    {
+        private string name;
+        private static int count;
+        public Person() 
+        {
+            count = count + 1;
+        }
+     
+        public string Name 
+        {
+            set { name = value; }
+            get { return name; }    
+        }
+        public int Count { get { return count; } }
+        
+
+    }
+}
+
+
+====================================
+GitHub - criar novo projeto
+
+new - nome = cursojavascriotbs
+
+descrição - curso de .......
+
+configuração - GNU 3.0
+
+=====================================
+
+mostrou bootstrap
+
+====================================
+
+seleciona o texto abaixo <crtl+shif+p>
+wr = abreviation
+div = irá criar a divisão
+
+       <h1>Cusrso de JavaScritp com Bootstrap</h1>
+        <p>
+            JavaScript é a linguagem de programação mais popular do mundo.
+            JavaScript é a linguagem de programação da Web.
+            JavaScript é fácil de aprender.
+            Este tutorial ensinará JavaScript do básico ao avançado.
+        </p>
+        <p>
+            Por que estudar JavaScript?
+            JavaScript é uma das 3 linguagens que todos os desenvolvedores web devem aprender:
+            1. HTML para definir o conteúdo das páginas da web
+            2. CSS para especificar o layout das páginas da web
+            3. JavaScript para programar o comportamento das páginas da web
+        </p>
+        <p>
+            Este curso abrange todas as versões do JavaScript:
+            O JavaScript Original ES1 ES2 ES3 (1997-1999)
+            A Primeira Revisão Principal ES5 (2009)
+            A Segunda Revisão ES6 (2015)
+            As adições anuais (2016, 2017, 2018)
+        </p>
+
+===============================
+
+C# 
+C# APT.NET Core
+HTTP
+APIs REST
+APIs Rest com ASP.NET Web API
+MAUI

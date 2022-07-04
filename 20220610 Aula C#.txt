@@ -1,0 +1,194 @@
+
+10/06/2022
+
+=====================================================
+
+GitHub - 
+
+Em <Add File> eu crio um novo html no GitHub
+
+YedoCosta/projetofinal - clica em projetofinal - irá mostrar todos os htmls que fiz 
+
+posso alterar aqui:
+-clico no lapis para editar
+-faço alteração e faço o commit
+
+ou 
+
+no VS code - se alterar aqui tenho que:
+	- colocar mensagem 
+	- fazer o commit
+
+==========================================
+
+Git Bash
+
+Clone - a primeira vez quando crio o projeto
+
+- para buscar o endereço https - YedoCosta/projetofinal <Code> no GitHub
+- https://github.com/YedoCosta/projetofinal.git busco isto no 
+cd 'Meus Documentos'
+git clone https://github.com/YedoCosta/projetofinal.git
+
+
+Diretório
+Aluno@Lab206_4 MINGW64 ~/Meus Documentos/projetofinal (main)
+git pull
+
+=============================================
+
+Visual Studio Code
+
+- para executar o html <F5> no VS Code
+- para ver o código - após executar preciono a tecla <F12> ele mostra o código html
+  - aqui ele mostra opão para celular - ver response em <dimensions> canto esquerdo
+
+
+no VS Code - para criar novo HTML eu clico no canto superior esquerdo as duas pastinhas e onde tem
+PROJETOFINAL <nome do projeto> ao lado tenho uma caixa com sinal de + <New File>
+
+=== versão anterior
+
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final - Escola</title>
+    <link rel="stylesheet" type="text/css" href="geral.css"/>
+</head>
+<body>
+    <h1>Projeto Escola - SENAI Brasilia</h1>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="equipe.html">A EQUIPE</a></li>
+        <li><a href="projeto.html">O PROJETO</a></li>
+        <li><a href="midia.html">NA MÍDIA</a></li>
+        <li><a href="faleconosco.html">FALE CONOSCO</a></li>
+    </ul>
+    <strong>Objetivos:</strong>
+    <em>Aplicar conhecimentos do curso de <strong>Desenvolvedor C#</strong></em>
+    <p>
+        A Universidade Católica de Brasília tem como missão atuar solidária e 
+        efetivamente para o desenvolvimento integral da pessoa humana e da sociedade, 
+        por meio da geração e da comunhão do saber, comprometida com a qualidade 
+        e os valores éticos e cristãos, na busca da verdade.
+    </p>
+    <p>
+        Nesta empreitada pretendo adquirir conhecimentos em c# para desenvolver um projeto de controle 
+        de inscrição e seleção de alunos a serem matriculados no curso de Tecnolodia de Informação.
+
+    </p>
+</body>
+</html>
+
+=========================
+versão de hoje 10/06/2022
+==========================
+
+=====================  index.html
+
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final - Escola</title>
+    <link rel="stylesheet" type="text/css" href="geral.css"/> 
+
+    <!--Exempo de CSS Interno - é como se ei tivesse no CSS -->
+    <style>
+      /*  ul{
+            background-color: yellow;
+        }*/
+
+
+    </style>
+</head>
+<body>
+    <h1>Projeto Escola - SENAI Brasilia</h1>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="equipe.html">A EQUIPE</a></li>
+        <li><a href="projeto.html">O PROJETO</a></li>
+        <li><a href="midia.html">NA MÍDIA</a></li>
+        <li><a href="faleconosco.html">FALE CONOSCO</a></li>
+    </ul>
+    <strong>Objetivos:</strong>
+    <em>Aplicar conhecimentos do curso de <strong>Desenvolvedor C#</strong></em>
+    <!--Exemplo de CSS InLine - na mesma linha-->
+    <p style="font-size: 28px;">
+        Projeto Escola IA - será desenvolvido pelos alunos do SENAI Brasília, do curso de Desenvolvedor C# 
+        neste projeto os alunos terão oportunidade de demonstrar comperências técnicas no desenvolvimento FULLSTACK.
+        <h1> Inteligencia artificial na educação de forma gratuita e livre</h1>
+    </p>
+    <p>
+        Nesta empreitada pretendo adquirir conhecimentos em c# para desenvolver um projeto de controle 
+        de inscrição e seleção de alunos a serem matriculados no curso de Tecnolodia de Informação.
+
+    </p>
+</body>
+</html>
+
+==================Geral.css=============================
+
+/* Exemplo de CSS Externo*/
+body{
+    background-color: cornsilk;
+}
+    /*Pai*/
+    ul{
+        background-color: yellow;
+    }
+       /*Filho*/
+    li{
+        background-color: brown;
+    }
+       /*Neto*/
+    li a{
+        background-color: aqua;
+    }
+
+==================================================
+
+/* Exemplo de CSS Externo*/
+body{
+    background-color: cornsilk;
+}
+    /*Pai*/
+    ul{
+        width: 100%;
+        height: 50px; 
+        border:3px solid red;
+ 
+
+    }
+       /*Filho*/
+    li{
+        background-color: antiquewhite;
+        display: inline;
+      
+    }
+       /*Neto*/
+    li a{
+        background-color: darkcyan;
+        
+       
+    }
+================================================
+
+
+
+
+como faço para estilizar - uso o CSS
+
+crio o geral.css
+
+==================================================
+
+
+  <link rel="stylesheet" type="text/css" href="geral.css"/> 
+
+
