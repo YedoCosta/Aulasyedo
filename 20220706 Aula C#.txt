@@ -25,38 +25,44 @@ namespace ExercicioProfRomulo.EscolinhaTictic
             double n2;
             double n3;
             double soma;
-            string nome;
-            // entrada de dados
-            Console.WriteLine("Digite três números: ");
+            string nome, resultado;
+
+            //=================== entrada de dados
+
+            Console.WriteLine("\r\nDigite o nome do aluno: \r\n");
+            nome = Console.ReadLine();
+            //--------------------------------------------------
+            Console.WriteLine("\r\nDigite três números: \r\n");
             n1 = double.Parse(Console.ReadLine());
             //---------------------------------------------------
             n2 = double.Parse(Console.ReadLine());
             //--------------------------------------------------
             n3 = double.Parse(Console.ReadLine());
             //--------------------------------------------------
-            Console.WriteLine("\r\n Digite o nome do aluno: ");
-            nome = Console.ReadLine();
-            //--------------------------------------------------
-            // sum += Math.Round(value, 1, MidpointRounding.AwayFromZero);
+
             soma = n1 + n2 + n3 ;
             Console.WriteLine(soma);
 
             //------------------ faz arredondamento ---------------
+            // sum += Math.Round(value, 1, MidpointRounding.AwayFromZero);
             double media = soma / 3;
             double arred = Math.Round(media, 2, MidpointRounding.AwayFromZero);
 
             Console.WriteLine($"\r\n Nome do Aluno: {nome}; \r\n A soma das notas é: {soma}; \r\nA média das notas é: {arred}");
-            
+
             // -------------------------------------------------------------
 
-            if ((soma/3) < 7)
+           
+
+            if (arred < 7)
             {
-                Console.WriteLine($"Sua média {(arred)} é < 7, voce está reprovado....");
+                resultado = "Reprovado"; 
             }
             else
             {
-                Console.WriteLine($"Sua média {(arred)} é >=7, voce foi aprovado....");
+                resultado = "Aprovado";
             }
+            Console.WriteLine($"Sua média {(arred)}, voce está {resultado}....");
             Console.ReadLine();
         }
     }
