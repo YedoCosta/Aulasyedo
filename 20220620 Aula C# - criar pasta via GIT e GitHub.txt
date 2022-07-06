@@ -1,5 +1,10 @@
 20220620
 
+Sem querer iniciei um repositório numa pasta maior
+
+rm -r .git
+
+
 
 insert 
 esc

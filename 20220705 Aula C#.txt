@@ -1,0 +1,58 @@
+20220705 Aula C#
+
+Documentação do C#
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/reference-types
+
+            /*Tipos de dados:
+             * Inteiro - int
+             * Real - double
+             * Texto - string
+             */
+            /*
+             * Operadores aritiméticos:
+             * + - adição
+             * - - subtração
+             * * - multiplicação
+             * / - divisão
+             * % - mod (modulo da divisão)
+             */
+
+tipos primitivos
+
+Os tipos primitivos não são definidos na especificação de linguagem C#, eles são definidos na plataforma 
+. NET (na CLR). Os tipos primitivos definidos na CLI Esp são : Boolean, Byte, SByte, Int16, 
+UInt16, Int32, UInt32, Int64, UInt64, IntPtr, UIntPtr, Char, Double, e Single.
+Double: System.Double
+Int: System.Int32
+Char: System.Char
+Float: System.Float
+
+
+tipos de referência
+
+Há dois tipos em C#: tipos de referência e valor. Variáveis de tipos de referência armazenam referências em seus 
+dados (objetos) enquanto que variáveis de tipos de valor contém diretamente seus dados. 
+Com tipos de referência, duas variáveis podem fazer referência ao mesmo objeto; 
+portanto, operações em uma variável podem afetar o objeto referenciado pela outra variável. 
+Com tipos de valor, cada variável tem sua própria cópia dos dados e as operações em uma variável 
+não podem afetar a outra (exceto no caso das variáveis de parâmetros in, ref e out. 
+Confira o modificador de parâmetro in, ref e out).
+
+As seguintes palavras-chaves são usadas para declarar tipos de referência:
+
+class
+
+interface
+
+delegate
+
+gravável
+
+O C# também oferece os seguintes tipos de referência internos:
+
+dinâmico
+
+object
+
+cadeia de caracteres

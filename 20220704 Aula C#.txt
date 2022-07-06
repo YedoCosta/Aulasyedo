@@ -9,7 +9,7 @@ O que é uma solução? É conjunto de projetos
     - projet
 
 Criar 1º projeto
-	botao direito em cida da solução
+	botao direito em cima da solução
 	add
 	novo projeto
 
