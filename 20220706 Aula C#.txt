@@ -1,6 +1,7 @@
-20220706 
+20220706  Aula C#
 
-Escolinha tictic
+======================================================
+===================  Escolinha tictic   ==============
 
 using System;
 using System.Collections.Generic;
@@ -50,10 +51,12 @@ namespace ExercicioProfRomulo.EscolinhaTictic
 
             Console.WriteLine($"\r\n Nome do Aluno: {nome}; \r\n A soma das notas é: {soma}; \r\nA média das notas é: {arred}");
 
-            // -------------------------------------------------------------
+            // ----------------------- usando Operador ternário ----------------
 
-           
+            resultado = arred > 7 ? "Aprovado" : "Reprovado";
 
+            //------------------------ usando IF ----------------------------------
+            /*
             if (arred < 7)
             {
                 resultado = "Reprovado"; 
@@ -61,7 +64,8 @@ namespace ExercicioProfRomulo.EscolinhaTictic
             else
             {
                 resultado = "Aprovado";
-            }
+            }*/
+            //------------------------------------------------------------------
             Console.WriteLine($"Sua média {(arred)}, voce está {resultado}....");
             Console.ReadLine();
         }
