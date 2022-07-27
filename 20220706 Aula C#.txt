@@ -1,5 +1,39 @@
 20220706  Aula C#
 
+=================================================================================
+===================== Imprime numeros pares  ===============
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExercicioProfRomulo.ValoresPares
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //===================== Imprime numeros pares  ===============
+            int ctc = 0;
+
+            while (ctc <= 100)
+            {
+                ctc++;
+                int mod = ctc % 2;
+
+                if (mod == 0)
+                {
+                    Console.WriteLine($"{ctc} É numero par");
+                  
+                }
+                
+
+            }
+            Console.ReadKey();
+        }
+    }
+}
 ======================================================
 ===================  Escolinha tictic   ==============
 
